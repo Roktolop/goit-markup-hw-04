@@ -359,6 +359,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-instagram,
@@ -370,7 +371,7 @@ img {
 
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 /* section Our Portfolio */
