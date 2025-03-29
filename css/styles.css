@@ -453,6 +453,10 @@ img {
   align-items: baseline;
 }
 
+.footer-logo-text-container {
+  margin-right: 120px;
+}
+
 .footer-logo-text-container .logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -465,10 +469,6 @@ img {
 
 .footer-logo-text-container .text {
   max-width: 264px;
-}
-
-.footer-social-media-container {
-  margin-right: 120px;
 }
 
 .footer-social-media-list {
