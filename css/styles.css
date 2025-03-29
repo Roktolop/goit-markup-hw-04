@@ -265,6 +265,17 @@ img {
   margin-bottom: 8px;
 }
 
+.banefits-list-item-icon-container {
+  background: #f4f4fd;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  max-width: 264px;
+  max-height: 112px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
 .subsection-title {
   font-weight: 500;
   font-size: 20px;
