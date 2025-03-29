@@ -400,7 +400,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.our-portfolio .container .list .list-item:nth-child(1) {
+.our-portfolio .container .list .list-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -427,7 +427,12 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio .list-item:nth-child(1):hover .overlay .text {
+.our-portfolio .list-item:nth-child(1):hover .overlay .text,
+.our-portfolio .list-item:nth-child(2):hover .overlay .text,
+.our-portfolio .list-item:nth-child(3):hover .overlay .text,
+.our-portfolio .list-item:nth-child(4):hover .overlay .text,
+.our-portfolio .list-item:nth-child(5):hover .overlay .text,
+.our-portfolio .list-item:nth-child(6):hover .overlay .text {
   transform: translateY(0);
 }
 
