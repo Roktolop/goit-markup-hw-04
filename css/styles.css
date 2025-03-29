@@ -180,9 +180,21 @@ img {
 /* section Title */
 
 .hero {
-  background-color: #2e2f42;
   max-height: 600px;
+  max-width: 1140px;
   padding: 188px 0;
+
+  display: flex;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/Background-image/Title-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .title {
